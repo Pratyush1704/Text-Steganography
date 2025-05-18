@@ -38,6 +38,7 @@ def desteg():
         
         
      print("Encrypted Code Bits:") 
+    print("Encrypted Code Bits:") 
      print(crypto)
      lengthcr = len(crypto)
      print(lengthcr)
