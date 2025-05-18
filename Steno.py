@@ -3,7 +3,8 @@ def stegnog(text):
     
     res = ''.join(format(i, 'b') for i in bytearray(text, encoding ='utf-8'))     #coverting text into binary format
     print(res)
-    print("The string after binary conversion : " + (res))   
+    print("The string after binary conversion : " + (res))
+    print("binary conversion done")
     length = len(res)
     print(length)
         
