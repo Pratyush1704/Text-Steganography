@@ -73,5 +73,6 @@ plaintext='IRONMAN'
 stegnog(plaintext)
 decrypted=desteg() 
 print("Message After Uncovering File: ",decrypted)
+print("Message Displayed ")
 
 
